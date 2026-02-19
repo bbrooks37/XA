@@ -19,7 +19,7 @@ This dashboard is deployed via **Docker** and secured using **Tailscale Networki
 * **Hardware:** Optimized for high-speed I/O on NVMe storage (Samsung 990 PRO).
 
 ## 📊 Analytics Preview
-*This project transforms raw aviation data into actionable maintenance intelligence. Below are the key components of the system, from server initialization to the final command center.
+**This project transforms raw aviation data into actionable maintenance intelligence. Below are the key components of the system, from server initialization to the final command center.
 
 ### 🖥️ Maintenance Command Center
 The primary dashboard provides real-time tracking of airframe hours (4,211.1 Hobbs), fuel consumption, and high-priority maintenance alerts for ATA 72/73 components.
