@@ -1,6 +1,14 @@
 # XA: Aviation Maintenance Analytics ✈️
 A Dockerized Business Intelligence (BI) stack for tracking N528RR aircraft maintenance.
 
+## 🚀 Remote Access
+
+This dashboard is deployed via **Docker** and secured using **Tailscale Networking**. It can be accessed from any authorized device (iPhone, iPad, or remote laptop) on the private tailnet.
+
+* **Internal URL:** `http://xa:3000`
+* **Network Provider:** Tailscale (MagicDNS enabled)
+* **Encryption:** WireGuard (End-to-End)
+
 ## 🚀 Overview
 Converted a standalone Java-based analytics tool into a scalable, containerized environment. This project tracks over 1,000 maintenance logs to provide real-time aircraft health insights.
 
