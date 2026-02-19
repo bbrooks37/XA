@@ -13,3 +13,5 @@ Converted a standalone Java-based analytics tool into a scalable, containerized 
 ## 📊 Key Metrics Tracked
 - **100-Hour Inspection Countdown**: Real-time gauge for mandatory FAA inspections.
 - **Task Frequency**: Identification of recurring mechanical issues.
+
+![Aviation Maintenance Dashboard](dashboard_preview.png)
