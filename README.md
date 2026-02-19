@@ -12,11 +12,11 @@ This dashboard is deployed via **Docker** and secured using **Tailscale Networki
 ## 🚀 Overview
 Converted a standalone Java-based analytics tool into a scalable, containerized environment. This project tracks over 1,000 maintenance logs to provide real-time aircraft health insights.
 
-## 🛠 Tech Stack
-- **Engine:** Docker & Docker Compose
-- **Analytics:** Metabase
-- **Database:** PostgreSQL
-- **Infrastructure:** Ubuntu Server (Dell Latitude 5490 / i7-8650U / Samsung 990 PRO)
+## 🛠 Technical Stack
+* **Containerization:** Docker & Docker Compose for rapid deployment.
+* **BI Tool:** Metabase for interactive dashboarding.
+* **Networking:** Tailscale Mesh VPN with MagicDNS for secure, remote mobile access.
+* **Data Structure:** Relational SQL schema tracking ATA Chapters (05, 12, 24, 32, 34).
 
 ## 📊 Key Metrics Tracked
 - **100-Hour Inspection Countdown**: Real-time gauge for mandatory FAA inspections.
