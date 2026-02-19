@@ -1,0 +1,17 @@
+# Ignore the actual database files
+metabase.db*
+metabase.log
+nohup.out
+plugins/
+
+# Ignore the virtual environment if you used one for Python
+__pycache__/
+*.pyc
+
+# Ignore system files
+nohup.out
+.DS_Store
+
+# Ignore the raw CSVs if they contain private tail numbers/names
+# (Only keep the 'cleaned' or 'anonymized' versions)
+N528RR_Combined_Logs.csv
