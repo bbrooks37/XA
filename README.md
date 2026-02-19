@@ -18,26 +18,6 @@ This dashboard is deployed via **Docker** and secured using **Tailscale Networki
 * **Database:** Relational SQL schema tracking ATA Chapters (05, 12, 24, 32, 34, 72, 73).
 * **Hardware:** Optimized for high-speed I/O on NVMe storage (Samsung 990 PRO).
 
----
-
-## 📋 Getting Started (From Scratch)
-
-### 1. Prerequisites
-* Ubuntu server with Docker and Docker Compose installed.
-* A Tailscale account with MagicDNS enabled.
-
-### 2. File Structure
-```text
-aviation_analytics/
-├── docker-compose.yml
-├── metabase.db/        # Your H2 or Postgres database files
-└── README.md
----
-## 3. Deployment
-* Run the following command to pull the images and start the analytics engine:
-* docker compose up -d
-*Once initialized, access the setup wizard at http://xa:3000 or your local MagicDNS name.
-
 ## 📊 Analytics Preview
 *This project transforms raw aviation data into actionable maintenance intelligence. Below are the key components of the system, from server initialization to the final command center.
 
@@ -52,3 +32,24 @@ A comprehensive overview of upcoming service requirements, inspections, and comp
 ### 🗄️ Maintenance Item Master Data
 Detailed view of the 90+ data points tracked for every serialized component on the aircraft, ensuring full regulatory compliance.
 ![Astra Maintenance Items](AMI.png)
+
+---
+
+## 📋 Getting Started (From Scratch)
+
+### 1. Prerequisites
+* Ubuntu server with Docker and Docker Compose installed.
+* A Tailscale account with MagicDNS enabled.
+
+### 2. File Structure
+```text
+aviation_analytics/
+├── docker-compose.yml
+├── metabase.db/        # Your H2 or Postgres database files
+└── README.md
+
+##  **Deployment**
+* Run the following command to pull the images and start the analytics engine:
+* docker compose up -d
+*Once initialized, access the setup wizard at http://xa:3000 or your local MagicDNS name.
+
