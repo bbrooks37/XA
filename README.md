@@ -14,4 +14,10 @@ Converted a standalone Java-based analytics tool into a scalable, containerized 
 - **100-Hour Inspection Countdown**: Real-time gauge for mandatory FAA inspections.
 - **Task Frequency**: Identification of recurring mechanical issues.
 
-![Aviation Maintenance Dashboard](dashboard_preview.png)
+## 📊 Analytics Preview
+
+### Maintenance Due List
+![Maintenance Due List](dasboard_preview.png)
+
+### Maintenance Item Master Data
+![Astra Maintenance Items](AMI.png)
