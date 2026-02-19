@@ -24,9 +24,23 @@ Converted a standalone Java-based analytics tool into a scalable, containerized 
 
 ## 📊 Analytics Preview
 
-### Maintenance Due List
+This project transforms raw aviation data into actionable maintenance intelligence. Below are the key components of the system, from server initialization to the final command center.
+
+| Initialization | SQL Alert Logic | Live Command Center |
+| :--- | :--- | :--- |
+| ![Metabase Boot](image_8b041e.png) | ![SQL Query](image_8b1dc9.png) | ![Live Dashboard](astra_dashboard.png) |
+
+---
+
+### 🖥️ Maintenance Command Center
+The primary dashboard provides real-time tracking of airframe hours (4,211.1 Hobbs), fuel consumption, and high-priority maintenance alerts for ATA 72/73 components.
+![Astra Maintenance Dashboard](astra_dashboard.png)
+
+### 📋 Maintenance Due List
+A comprehensive overview of upcoming service requirements, inspections, and component life limits.
 ![Maintenance Due List](dasboard_preview.png)
 
-### Maintenance Item Master Data
+### 🗄️ Maintenance Item Master Data
+Detailed view of the 90+ data points tracked for every serialized component on the aircraft, ensuring full regulatory compliance.
 ![Astra Maintenance Items](AMI.png)
 
