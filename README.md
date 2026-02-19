@@ -32,8 +32,8 @@ aviation_analytics/
 ├── docker-compose.yml
 ├── metabase.db/        # Your H2 or Postgres database files
 └── README.md
-
-### 3. Deployment
+---
+## 3. Deployment
 * Run the following command to pull the images and start the analytics engine:
 * docker compose up -d
 *Once initialized, access the setup wizard at http://xa:3000 or your local MagicDNS name.
