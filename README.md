@@ -22,12 +22,3 @@ Converted a standalone Java-based analytics tool into a scalable, containerized 
 ### Maintenance Item Master Data
 ![Astra Maintenance Items](AMI.png)
 
-
-ATA Code,System Name,Description
-05,Time Limits/Maintenance Checks,"Mandatory inspections (A-Checks, 48-Month, etc.)"
-12,Servicing,Routine tasks like lubrication and fluid checks
-21,Air Conditioning,Pressurization and climate control systems
-24,Electrical Power,"Battery, AC/DC generation, and distribution"
-32,Landing Gear,"Wheels, brakes, and extension/retraction logic"
-34,Navigation,Pitot-static systems and flight instruments
-72,Engine,Specific maintenance for the power plant units
